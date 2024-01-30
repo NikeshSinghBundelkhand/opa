@@ -1,0 +1,13 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: <certificateName>
+  namespace: opa
+spec:
+  secretName: <secretName>
+  issuerRef:
+    kind: ClusterIssuer
+    name: <clusterIssuerName>
+  dnsNames:
+    - <dnsNames>
