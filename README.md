@@ -14,3 +14,6 @@ The OPA Server is an implementation of the Open Policy Agent that enables policy
 ## Getting Started
 
 This repository has all the kubernetes manisfest files to deploy locally in Minikube or in your kubernetes cluster. You just have to change the names of the resources respectively and get OPA server running
+
+
+## Updating MR Request Approval Rules for this project
